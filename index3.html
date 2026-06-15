@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Revathi Mamindla Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#081b29;
+    color:white;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding:20px 10%;
+    background:#081b29;
+    z-index:100;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00abf0;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:18px;
+}
+
+.home{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:100vh;
+    padding:0 10%;
+}
+
+.home-content{
+    max-width:600px;
+}
+
+.home-content h1{
+    font-size:60px;
+}
+
+.home-content h3{
+    font-size:30px;
+    color:#00abf0;
+    margin:10px 0;
+}
+
+.home-content p{
+    font-size:18px;
+    line-height:1.6;
+    margin-top:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 30px;
+    background:#00abf0;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    margin-top:20px;
+    margin-right:10px;
+}
+
+.home-img{
+    width:380px;
+    height:380px;
+    border-radius:50%;
+    overflow:hidden;
+    border:6px solid #00abf0;
+    box-shadow:0 0 30px #00abf0;
+}
+
+.home-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    color:#00abf0;
+    margin-bottom:30px;
+}
+
+.card{
+    background:#112e42;
+    padding:25px;
+    margin:15px 0;
+    border-radius:15px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:#112e42;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#112e42;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="navbar">
+<div class="logo">Revathi.</div>
+
+<div class="nav-links">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certificates">Certificates</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</header>
+
+<section class="home" id="home">
+
+<div class="home-content">
+<h1>Hi, I'm Revathi Mamindla</h1>
+
+<h3>ECE Student | Java Developer</h3>
+
+<p>
+Passionate about Embedded Systems, Java Programming,
+Automation and Problem Solving.
+Qualified in TCS CodeVita Season 13.
+</p>
+
+<a href="#7075229972" class="btn">Contact Me</a>
+<a href="d:\RevathiMamindlaResume (1).docx." class="btn">Download Resume</a>
+
+</div>
+
+<div class="home-img">
+<img src="Rev.jpeg" alt="Revathi">
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="card">
+<p>
+I am Revathi Mamindla pursuing B.Tech in Electronics and Communication Engineering.
+Interested in Java Development, Embedded Systems, Electronics,
+Automation and Software Development.
+</p>
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Java</div>
+<div class="skill">C Programming</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Embedded Systems</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Electronics</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">Projects</h2>
+
+<div class="card">
+    <h3>Smart Industrial Safety Helmet</h3>
+
+    <p>
+        Developed a smart safety helmet for industrial workers using IoT and embedded systems.
+        The helmet monitors worker safety conditions, detects accidents, gas leakage, and impact,
+        and sends real-time alerts to supervisors. It improves workplace safety and reduces risks
+        in hazardous industrial environments.
+    </p>
+</div>
+
+<div class="card">
+    <h3>Smart Blind Stick Using Ultrasonic Sensor</h3>
+
+    <p>
+        Developed a Smart Blind Stick using an Ultrasonic Sensor and Arduino to assist visually impaired people. The system detects obstacles in front of the user and provides alerts through a buzzer or vibration module, helping users navigate safely and independently.
+    </p>
+</div>
+
+</section>
+
+<section id="certificates">
+
+<h2 class="title">Certificates</h2>
+
+<div class="card">TCS CodeVita Season 13 Rank Certificate</div>
+
+<div class="card">IBM Certificate</div>
+
+<div class="card">Eduskills</div>
+
+<div class="card">Adobe</div>
+
+<div class="card">Cisco</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<div class="card">
+<p>Email: revathimamindla82@gmail.com</p>
+<p>LinkedIn:linkedin.com/in/revathi-mamindla-324628290 </p>
+<p>GitHub:github.com/revathimamindla82-ship-it </p>
+<p>Contact:7075229972</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Revathi Mamindla | Portfolio</p>
+</footer>
+
+</body>
+</html>
